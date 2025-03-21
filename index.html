@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+<div class="h-screen pt-2 pl-8 sm:pl-15 sm:pt-10 bg-center bg-[url('stopwatch-lg-bg.png')] bg-cover md:pl-30">
+    <div class="flex flex-col items-start gap-8">
+        <h1 class="text-purple-300 text-4xl pl-5 sm:pl-0 sm:text-5xl font-semibold xl:pl-10">Stopwatch</h1>
+        <div id="timer" class="bg-purple-100 p-4 sm:p-8 text-center shadow-2xl rounded-2xl text-xl xl:w-80">
+            <span>
+                <i class="fa-solid fa-stopwatch"></i>
+            </span>
+            <span>Timer</span>
+            <p class="text-4xl font-bold my-4">00 : 00 : 00</p>
+            <button id="start" class="cursor-pointer px-3 py-1 text-sm bg-purple-500 text-white rounded-lg">Start</button>
+            <button id="stop" class="cursor-pointer px-3 py-1 text-sm bg-purple-500 text-white rounded-lg">Stop</button>
+            <button id="reset" class="cursor-pointer px-3 py-1 text-sm bg-purple-500 text-white rounded-lg">Reset</button>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
