@@ -1,8 +1,6 @@
 # Stopwatch
 "⏱️ A sleek stopwatch with a purple-themed UI, built using HTML, Tailwind CSS, and JavaScript. 🚀 Minimalistic design with start, stop, and reset functionality. Check it out! 💜✨ #JavaScript #TailwindCSS #Stopwatch #WebDevelopment"
 
-Stopwatch
-
 A simple stopwatch application built using HTML, CSS, and JavaScript. It allows users to start, stop, and reset the timer with a clean and user-friendly interface.
 
 Features
